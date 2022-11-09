@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homeworkWEEKONE</title>
+    <style>
+      .forecast {
+        text-align: center;
+      }
+
+      h1 {
+        color: #1a64d6;
+        font-family: helvetica, arial, sans-serif;
+        font-size: 34px;
+      }
+      h2 {
+        font-size: 34px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        margin: -14px;
+      }
+      h4 {
+        font-family: monospace;
+        font-size: 18px;
+        color: rgb(64, 64, 64);
+        font-weight: normal;
+      }
+      ul {
+        list-style: none;
+        padding: 15px;
+        margin: 22px;
+        font-size: 20px;
+        font-family: helvetica, arial, sans-serif;
+      }
+
+      li {
+        font-weight: 550;
+        display: block;
+      }
+      p {
+        font-family: monospace;
+        font-size: 18px;
+        color: rgb(64, 64, 64);
+        display: block;
+        margin: 33px;
+        margin-top: -1px;
+        margin-bottom: 8px;
+        padding: 14px;
+      }
+
+      button {
+        background-color: #1a64d6;
+        color: white;
+        border: 1px solid #1a64d6;
+        font-size: medium;
+        border-radius: 100px;
+        padding: 23px;
+        margin-top: -50px;
+        line-height: 10px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background-color: white;
+        color: #1a64d6;
+        border-color: #1a64d6;
+        background-color: white;
+        cursor: pointer;
+      }
+      .rain:hover {
+        background-color: rgba(253, 253, 183, 0.2);
+      }
+      .rain {
+        background-color: white;
+        max-width: 800px;
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .cloud:hover {
+        background-color: rgba(253, 253, 183, 0.2);
+        transition: all 200ms ease-in-out;
+      }
+      .cloud {
+        background-color: white;
+        max-width: 800px;
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .sun:hover {
+        background-color: rgba(253, 253, 183, 0.2);
+      }
+      .sun {
+        background-color: white;
+        max-width: 800px;
+        list-style: none;
+        text-align: center;
+        padding: 31px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="forecast">
+      <h1>🌤️<br />Currently 21° in Tokyo</h1>
+      <h2>13° / <strong>23°</strong></h2>
+      <br />
+      <ul>
+        <div class="rain">
+          <li>🌧️Tomorrow</li>
+          <p>10° /<strong> 22°</strong></p>
+          <br /><br />
+        </div>
+
+        <div class="cloud">
+          <li>🌥️Saturday</li>
+          <p>15° / <strong>17°</strong></p>
+          <br /><br />
+        </div>
+        <div class="sun">
+          <li>☀️Sunday</li>
+          <p>25° / <strong>28°</strong></p>
+        </div>
+      </ul>
+      <button>Change City</button>
+      <h4>Coded by Monique Gwynn</h4>
+    </div>
+  </body>
+</html>
