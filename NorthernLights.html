@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NorthernLights✨</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        border: 10px solid green;
+        padding: 5px;
+        border-radius: 20px;
+      }
+      .vid {
+        text-align: center;
+        margin: 128px;
+        display: block;
+        border: 12px dotted green;
+        padding: 5px;
+        border-radius: 20px;
+        padding: 2px;
+        padding-bottom: 1px;
+      }
+      h3 {
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+        margin-bottom: -95px;
+        font-size: large;
+      }
+      p {
+        text-align: center;
+      }
+      ul {
+        text-align: center;
+        list-style: none;
+        padding: 3px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        color: blue;
+        font-size: 15px;
+        background-color: green;
+        border: 3px solid green;
+        padding: 20px;
+        border-radius: 20px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        color: green;
+        background: rgb(216, 74, 180);
+        cursor: pointer;
+      }
+      .sentence {
+        text-align: center;
+        margin-top: 1px;
+      }
+      .name {
+        text-align: center;
+        color: green;
+      }
+      .space {
+        margin-top: -80px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+        border-radius: 30px;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Aurora Borealis</h1>
+
+      <h2><em>aka The Northern Lights✨</em></h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/371/original/lights.jpeg?1668718526"
+        alt="NorthernLights"
+        width="450"
+        height="350"
+      />
+      <hr />
+      <h3>So what is so special about the Northern Lights❓</h3>
+      <p>
+        The aurora borealis...otherwise known as the northern lights...is a
+        vivid demonstration of the Earth's magnetic field interacting with
+        charged particles from the sun.<br />
+        These particles (electrons and protons) collide with gases in Earth's
+        upper atmosphere. Those collisions then produce tiny flashes that fill
+        the sky with colourful light. As billions of flashes occur in sequence,
+        the auroras appear to move or " dance " in the sky.
+      </p>
+
+      <h3>So where can I go to visit❓</h3>
+
+      <ul>
+        <li>Southern Iceland</li>
+        <li>Whitehorse, Canada's Yukron</li>
+        <li>Tromso, Norway</li>
+        <li>Fairbanks, Alaska</li>
+        <li>Rovaniemi, Finland</li>
+        <li>Kiruna, Sweden</li>
+        <li>Murmansk, Russia</li>
+        <li>Ilulissat, Greenland</li>
+        <li>Dunedin, New Zealand</li>
+        <li>Tasmania, Australia</li>
+      </ul>
+      <button>Dying for more Information?</button>
+
+      <h4>
+        Curious to see it live ❓❓ <br />
+        Check out the video below❗<br />
+      </h4>
+      <div class="vid">
+        <iframe
+          width="500"
+          height="300"
+          src="https://www.youtube.com/embed/fVsONlc3OUY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="space"><hr /></div>
+      <div class="sentence">
+        This page was created by
+        <span class="name">Monique Gwynn</span>
+      </div>
+    </div>
+    <script>
+      function moreInfo() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        alert("Thanks, " + name + ". We'll be in touch soon!");
+      }
+      let contactButton = document.querySelector("button");
+      contactButton.addEventListener("click", moreInfo);
+    </script>
+  </body>
+</html>
